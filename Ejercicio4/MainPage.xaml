@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio4.MainPage">
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Ejercicio 1.4" BackgroundColor="white" TextColor="DarkGray"/>
+            <Button Text="Ingresar imagen" BackgroundColor="White" TextColor="Black" Clicked="Ingreso_Clicked"/>
+            <Button Text="VerLista" BackgroundColor="White" TextColor="Black" Clicked="Ver_Clicked"/>
+            <Label Text="Desarrollado por Delbert Lira y Liliana Hernandez"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
